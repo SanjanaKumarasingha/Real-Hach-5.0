@@ -29,7 +29,9 @@ def calculate_vehicle_numbers(total_number_of_wheels):
 
 
 # Input
-total_wheels = int(input())
+# total_wheels = int(input())
+
+total_wheels = 17 # output 3 1 1
 
 # Output
 number_of_motorcars, number_of_threewheelers, number_of_motorcycles = calculate_vehicle_numbers(total_wheels)
